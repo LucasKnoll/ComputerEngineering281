@@ -1,0 +1,10 @@
+|lab2step2
+Alarm <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Wolf => inst4.IN0
+Wolf => inst2.IN0
+Goat => inst1.IN0
+Goat => inst6.IN0
+Cabbage => inst4.IN2
+Cabbage => inst.IN0
+
+
