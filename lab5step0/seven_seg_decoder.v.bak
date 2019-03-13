@@ -1,0 +1,36 @@
+module seven_seg_decoder(
+		input [3:0] x,
+		input dp.
+		
+		output [6:0] Z,
+		
+		);
+		
+		reg z_out;
+		reg DP;
+		
+		always@(*)
+			begin
+				case(x)
+				4'd0 : z_out = 7'b0000001;
+				4'd1 : z_out = 7'b1001111;
+				4'd2 : z_out = 7'b0010010;
+				4'd3 : z_out = 7'b0000110;
+				4'd4 : z_out = 7'b1001100;
+				4'd5 : z_out = 7'b0100100;
+				4'd6 : z_out = 7'b0100000;
+				4'd7 : z_out = 7'b0001111;
+				4'd8 : z_out = 7'b0000000;
+				4'd9 : z_out = 7'b0000100;
+				4'd10 : z_out = 7'b0001000;
+				4'd11 : z_out = 7'b1100000;
+				4'd12 : z_out = 7'b0110001;
+				4'd13 : z_out = 7'b1000010;
+				4'd13 : z_out = 7'b0110000;
+				4'd14 : z_out = 7'b0111000;
+				default : z_out = 7'b0000000;
+				
+				assign Z = {z_out,dp};
+				
+				end
+endmodule
