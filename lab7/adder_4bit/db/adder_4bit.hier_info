@@ -1,0 +1,74 @@
+|adder_4bit
+S3 <= full_adder:inst.S
+Cin => full_adder:inst3.Cin
+x0 => full_adder:inst3.x
+y0 => full_adder:inst3.y
+x1 => full_adder:inst2.x
+y1 => full_adder:inst2.y
+x2 => full_adder:inst1.x
+y2 => full_adder:inst1.y
+x3 => full_adder:inst.x
+y3 => full_adder:inst.y
+S2 <= full_adder:inst1.S
+S1 <= full_adder:inst2.S
+S0 <= full_adder:inst3.S
+Cout <= full_adder:inst.Cout
+Overflow <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_4bit|full_adder:inst
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => S.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => S.IN1
+y => Cout.IN1
+y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_4bit|full_adder:inst1
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => S.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => S.IN1
+y => Cout.IN1
+y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_4bit|full_adder:inst2
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => S.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => S.IN1
+y => Cout.IN1
+y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_4bit|full_adder:inst3
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => S.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => S.IN1
+y => Cout.IN1
+y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
