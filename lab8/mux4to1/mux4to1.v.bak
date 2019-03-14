@@ -1,0 +1,9 @@
+module mux4to1(W0, W1, W2, W3, F, S[1..0]);
+
+	input W0, W1, W2, W3, W4;
+	input S[1..0];
+	output f;
+
+	assign f = (~S[1] & ~S[0] & W0) | (~S[1] & S[0] & W1) | (S[1] & ~S[0] & W2) | (S[1] & S[0] & W3);
+
+endmodule
