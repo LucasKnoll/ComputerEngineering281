@@ -1,0 +1,176 @@
+|test
+z2_out[6] <= dumb_stuff:inst2.z_out[6]
+z2_out[5] <= dumb_stuff:inst2.z_out[5]
+z2_out[4] <= dumb_stuff:inst2.z_out[4]
+z2_out[3] <= dumb_stuff:inst2.z_out[3]
+z2_out[2] <= dumb_stuff:inst2.z_out[2]
+z2_out[1] <= dumb_stuff:inst2.z_out[1]
+z2_out[0] <= dumb_stuff:inst2.z_out[0]
+W => dumb_stuff:inst2.W
+W => dumb_stuff:inst.W
+Manual => debouncer:inst1.Manual
+Manual => dumb_stuff:inst.clock
+Board => debouncer:inst1.Board
+z_out[6] <= dumb_stuff:inst.z_out[6]
+z_out[5] <= dumb_stuff:inst.z_out[5]
+z_out[4] <= dumb_stuff:inst.z_out[4]
+z_out[3] <= dumb_stuff:inst.z_out[3]
+z_out[2] <= dumb_stuff:inst.z_out[2]
+z_out[1] <= dumb_stuff:inst.z_out[1]
+z_out[0] <= dumb_stuff:inst.z_out[0]
+
+
+|test|dumb_stuff:inst2
+z_out[6] <= seven_seg_decoder:inst28.z_out[6]
+z_out[5] <= seven_seg_decoder:inst28.z_out[5]
+z_out[4] <= seven_seg_decoder:inst28.z_out[4]
+z_out[3] <= seven_seg_decoder:inst28.z_out[3]
+z_out[2] <= seven_seg_decoder:inst28.z_out[2]
+z_out[1] <= seven_seg_decoder:inst28.z_out[1]
+z_out[0] <= seven_seg_decoder:inst28.z_out[0]
+clock => clock_generator:inst27.CLK_IN
+W => inst20.IN1
+W => inst23.IN1
+
+
+|test|dumb_stuff:inst2|seven_seg_decoder:inst28
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+z_out[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+z_out[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+z_out[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+z_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+z_out[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+z_out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+z_out[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test|dumb_stuff:inst2|clock_generator:inst27
+CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|test|dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|test|dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|test|debouncer:inst1
+smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Board => clock_divider_1024:inst.CLK_IN
+Manual => inst2.DATAIN
+
+
+|test|debouncer:inst1|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|test|debouncer:inst1|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|test|dumb_stuff:inst
+z_out[6] <= seven_seg_decoder:inst28.z_out[6]
+z_out[5] <= seven_seg_decoder:inst28.z_out[5]
+z_out[4] <= seven_seg_decoder:inst28.z_out[4]
+z_out[3] <= seven_seg_decoder:inst28.z_out[3]
+z_out[2] <= seven_seg_decoder:inst28.z_out[2]
+z_out[1] <= seven_seg_decoder:inst28.z_out[1]
+z_out[0] <= seven_seg_decoder:inst28.z_out[0]
+clock => clock_generator:inst27.CLK_IN
+W => inst20.IN1
+W => inst23.IN1
+
+
+|test|dumb_stuff:inst|seven_seg_decoder:inst28
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+z_out[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+z_out[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+z_out[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+z_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+z_out[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+z_out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+z_out[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test|dumb_stuff:inst|clock_generator:inst27
+CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|test|dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|test|dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+

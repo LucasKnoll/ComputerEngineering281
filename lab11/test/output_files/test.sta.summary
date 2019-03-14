@@ -1,0 +1,401 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'debouncer:inst1|inst2'
+Slack : -2.614
+TNS   : -6.875
+
+Type  : Slow 1200mV 85C Model Setup 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -2.595
+TNS   : -7.770
+
+Type  : Slow 1200mV 85C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -2.389
+TNS   : -6.841
+
+Type  : Slow 1200mV 85C Model Setup 'Board'
+Slack : -2.331
+TNS   : -7.434
+
+Type  : Slow 1200mV 85C Model Setup 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : -2.261
+TNS   : -6.559
+
+Type  : Slow 1200mV 85C Model Setup 'Manual'
+Slack : -2.043
+TNS   : -5.870
+
+Type  : Slow 1200mV 85C Model Setup 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.910
+TNS   : -3.551
+
+Type  : Slow 1200mV 85C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.902
+TNS   : -3.932
+
+Type  : Slow 1200mV 85C Model Setup 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : -0.986
+TNS   : -0.986
+
+Type  : Slow 1200mV 85C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : 0.069
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Board'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debouncer:inst1|inst2'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Manual'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : 0.986
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Board'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Manual'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debouncer:inst1|inst2'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.285
+TNS   : -8.995
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.285
+TNS   : -8.995
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'debouncer:inst1|inst2'
+Slack : -2.312
+TNS   : -5.398
+
+Type  : Slow 1200mV 0C Model Setup 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -2.286
+TNS   : -6.162
+
+Type  : Slow 1200mV 0C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -2.101
+TNS   : -5.344
+
+Type  : Slow 1200mV 0C Model Setup 'Board'
+Slack : -2.061
+TNS   : -5.873
+
+Type  : Slow 1200mV 0C Model Setup 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : -1.982
+TNS   : -5.086
+
+Type  : Slow 1200mV 0C Model Setup 'Manual'
+Slack : -1.788
+TNS   : -4.499
+
+Type  : Slow 1200mV 0C Model Setup 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.669
+TNS   : -2.739
+
+Type  : Slow 1200mV 0C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.659
+TNS   : -3.016
+
+Type  : Slow 1200mV 0C Model Setup 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : -0.837
+TNS   : -0.837
+
+Type  : Slow 1200mV 0C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Board'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debouncer:inst1|inst2'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Manual'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : 0.960
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Board'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Manual'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debouncer:inst1|inst2'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.285
+TNS   : -8.995
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.285
+TNS   : -8.995
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'debouncer:inst1|inst2'
+Slack : -0.924
+TNS   : -0.924
+
+Type  : Fast 1200mV 0C Model Setup 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -0.795
+TNS   : -0.827
+
+Type  : Fast 1200mV 0C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -0.703
+TNS   : -0.703
+
+Type  : Fast 1200mV 0C Model Setup 'Board'
+Slack : -0.617
+TNS   : -0.626
+
+Type  : Fast 1200mV 0C Model Setup 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : -0.612
+TNS   : -0.612
+
+Type  : Fast 1200mV 0C Model Setup 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : -0.583
+TNS   : -0.583
+
+Type  : Fast 1200mV 0C Model Setup 'Manual'
+Slack : -0.509
+TNS   : -0.509
+
+Type  : Fast 1200mV 0C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast 1200mV 0C Model Setup 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -0.438
+TNS   : -0.438
+
+Type  : Fast 1200mV 0C Model Setup 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : 0.545
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : 0.546
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Board'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debouncer:inst1|inst2'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Manual'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : 0.414
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Manual'
+Slack : -3.000
+TNS   : -14.350
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Board'
+Slack : -3.000
+TNS   : -13.600
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debouncer:inst1|clock_divider_1024:inst|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debouncer:inst1|inst2'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|clock_divider_1024:inst8|inst10'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst2|clock_generator:inst27|inst7'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dumb_stuff:inst|clock_generator:inst27|inst7'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debouncer:inst1|clock_divider_1024:inst1|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------
