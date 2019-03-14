@@ -1,0 +1,10 @@
+module full_adder (Cin, X, Y, S, Cout);
+	
+	input Cin, X, Y;
+	output Cout, S;
+
+	
+	assign S = (x ^ y) ^ Cin;
+	assign Cout = (x&y)|(x&Cin)|(y&Cin);
+	
+endmodule
